@@ -7,7 +7,6 @@ table_indirect_create_member ecmp_group set_ecmp_nexthop 4
 table_indirect_add_member_to_group ecmp_group 1 0
 table_indirect_add_member_to_group ecmp_group 2 0
 table_indirect_add_member_to_group ecmp_group 3 0
-table_indirect_add_member_to_group ecmp_group 4 0
 table_indirect_set_default ecmp_group 0
 table_indirect_add_with_group ecmp_group 239.1.1.1 => 0
 table_dump ecmp_group
