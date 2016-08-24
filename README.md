@@ -33,5 +33,5 @@ These commands do the following:
 08. add member 3 to group 0
 09. set member 0 (_nop) has the default for table ecmp_group
 10. add an entry to table ecmp_group, which maps destination IPv4 address
-    239.1.1.1 to group 0 (which includes members 1 and 3)
+    239.1.1.1 to group 0 (which includes members 1, 2, and 3)
 11. simply dump the table
